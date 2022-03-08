@@ -1,6 +1,8 @@
 # Created by Pete Ningcharoen at 3/1/2022
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: Test case for cancel order in help for Amazon
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+
+  Scenario: User search for cancel order in Help
+    Given Open Amazon Help Page
+    When Query for cancel order
+    Then Confirm search result are shown for "Cancel Items or Orders"
