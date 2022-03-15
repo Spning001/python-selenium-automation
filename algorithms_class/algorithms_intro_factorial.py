@@ -15,7 +15,7 @@ number = int(input('User input a number: '))  # number = 5
 # 0(n) linear time run time because it's a loop calculation
 result = 1
 if number != 0:  #if number(user input) does not = 0, go to next line, but if number = 0, result is 1 which is given.
-    for i in range(1, number + 1):  #for i(variable) in range(1, number + 1):
+    for i in range(1, number + 1):  #for i(variable) in range(1, number + 1(+ 1 because the final digit is not counted):
         result = result * i  #result *= i
         # result = 1 * 1
         # result = 1 * 2
